@@ -1,11 +1,626 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Student Landing Page</title>
 </head>
+
 <body>
-    
+
+    <!-- ================= NAVIGATION ================= -->
+
+    <header>
+
+        <nav>
+
+            <div>
+                <a href="#">StudentHub</a>
+            </div>
+
+            <div>
+
+                <a href="#home">Home</a>
+
+                <a href="#about">About</a>
+
+                <div>
+                    <a href="#">Services</a>
+
+                    <div>
+                        <a href="#">Web Development</a>
+                        <a href="#">UI/UX Design</a>
+                        <a href="#">Programming</a>
+                    </div>
+                </div>
+
+                <a href="#contact">Contact</a>
+
+            </div>
+
+
+            <div>
+
+                <form>
+                    <input type="search" placeholder="Search">
+                    <button type="submit">Search</button>
+                </form>
+
+                <button type="button">
+                    Sign Up
+                </button>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+
+    <main>
+
+        <section id="home">
+
+            <div>
+
+                <h1>
+                    Learn. Create. Grow.
+                </h1>
+
+                <p>
+                    A learning platform designed for students.
+                </p>
+
+                <button type="button">
+                    Get Started
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= FEATURES ================= -->
+
+        <section id="about">
+
+            <div>
+
+                <h2>
+                    Our Features
+                </h2>
+
+                <p>
+                    Everything students need to learn and grow.
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <!-- Feature 1 -->
+
+                <article>
+
+                    <h3>
+                        Online Books
+                    </h3>
+
+                    <p>
+                        Read useful books and learning materials online.
+                    </p>
+
+                    <button type="button">
+                        Read More
+                    </button>
+
+                </article>
+
+
+                <!-- Feature 2 -->
+
+                <article>
+
+                    <h3>
+                        Online Learning
+                    </h3>
+
+                    <p>
+                        Learn programming and technology online.
+                    </p>
+
+                    <button type="button">
+                        Learn More
+                    </button>
+
+                </article>
+
+
+                <!-- Feature 3 -->
+
+                <article>
+
+                    <h3>
+                        Community
+                    </h3>
+
+                    <p>
+                        Connect with other students and share knowledge.
+                    </p>
+
+                    <button type="button">
+                        Join Us
+                    </button>
+
+                </article>
+
+
+                <!-- Feature 4 -->
+
+                <article>
+
+                    <h3>
+                        Certificates
+                    </h3>
+
+                    <p>
+                        Complete courses and earn certificates.
+                    </p>
+
+                    <button type="button">
+                        Explore
+                    </button>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= PROFILE ================= -->
+
+        <section>
+
+            <h2>
+                Student Profile
+            </h2>
+
+
+            <article>
+
+                <img
+                    src="profile.jpg"
+                    alt="Student Profile"
+                    width="100"
+                    height="100"
+                >
+
+                <h3>
+                    Sreypin Taing
+                </h3>
+
+                <p>
+                    Web Development Student
+                </p>
+
+
+                <!-- Badges -->
+
+                <div>
+
+                    <span>
+                        Student
+                    </span>
+
+                    <span>
+                        Developer
+                    </span>
+
+                    <span>
+                        Designer
+                    </span>
+
+                </div>
+
+
+                <p>
+                    I love learning Web Development,
+                    Bootstrap and UI/UX Design.
+                </p>
+
+
+                <button type="button">
+                    Message
+                </button>
+
+                <button type="button">
+                    Edit Profile
+                </button>
+
+            </article>
+
+        </section>
+
+
+        <!-- ================= EDIT PROFILE FORM ================= -->
+
+        <section>
+
+            <h2>
+                Edit Profile
+            </h2>
+
+            <form>
+
+                <div>
+
+                    <label for="name">
+                        Name
+                    </label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        value="Sreypin Taing"
+                    >
+
+                </div>
+
+
+                <div>
+
+                    <label for="email">
+                        Email
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Enter your email"
+                    >
+
+                </div>
+
+
+                <div>
+
+                    <label for="bio">
+                        Bio
+                    </label>
+
+                    <textarea
+                        id="bio"
+                        name="bio"
+                        rows="4"
+                    ></textarea>
+
+                </div>
+
+
+                <button type="submit">
+                    Save Changes
+                </button>
+
+                <button type="button">
+                    Cancel
+                </button>
+
+            </form>
+
+        </section>
+
+
+        <!-- ================= ADMIN TABLE ================= -->
+
+        <section>
+
+            <h2>
+                Admin Data Table
+            </h2>
+
+
+            <table>
+
+                <thead>
+
+                    <tr>
+
+                        <th>#</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Role</th>
+                        <th>Status</th>
+
+                    </tr>
+
+                </thead>
+
+
+                <tbody>
+
+                    <tr>
+
+                        <td>1</td>
+                        <td>Dara</td>
+                        <td>dara@gmail.com</td>
+                        <td>Admin</td>
+                        <td>Active</td>
+
+                    </tr>
+
+
+                    <tr>
+
+                        <td>2</td>
+                        <td>Srey</td>
+                        <td>srey@gmail.com</td>
+                        <td>Student</td>
+                        <td>Pending</td>
+
+                    </tr>
+
+
+                    <tr>
+
+                        <td>3</td>
+                        <td>Bunthoeun</td>
+                        <td>bunthoeun@gmail.com</td>
+                        <td>Student</td>
+                        <td>Blocked</td>
+
+                    </tr>
+
+
+                    <tr>
+
+                        <td>4</td>
+                        <td>Sokha</td>
+                        <td>sokha@gmail.com</td>
+                        <td>Student</td>
+                        <td>Active</td>
+
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+
+            <!-- Pagination -->
+
+            <div>
+
+                <a href="#">
+                    Previous
+                </a>
+
+                <a href="#">
+                    1
+                </a>
+
+                <a href="#">
+                    2
+                </a>
+
+                <a href="#">
+                    3
+                </a>
+
+                <a href="#">
+                    Next
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= PRICING ================= -->
+
+        <section>
+
+            <h2>
+                Pricing Plans
+            </h2>
+
+
+            <div>
+
+                <!-- BASIC -->
+
+                <article>
+
+                    <h3>
+                        Basic
+                    </h3>
+
+                    <h4>
+                        $10 / month
+                    </h4>
+
+                    <p>
+                        ✓ Basic Courses
+                    </p>
+
+                    <p>
+                        ✓ Online Books
+                    </p>
+
+                    <p>
+                        ✓ Student Community
+                    </p>
+
+                    <button type="button">
+                        Choose Basic
+                    </button>
+
+                </article>
+
+
+                <!-- PRO -->
+
+                <article>
+
+                    <p>
+                        MOST POPULAR
+                    </p>
+
+                    <h3>
+                        Pro
+                    </h3>
+
+                    <h4>
+                        $25 / month
+                    </h4>
+
+                    <p>
+                        ✓ All Basic Features
+                    </p>
+
+                    <p>
+                        ✓ Premium Courses
+                    </p>
+
+                    <p>
+                        ✓ Certificates
+                    </p>
+
+                    <p>
+                        ✓ Priority Support
+                    </p>
+
+                    <button type="button">
+                        Choose Pro
+                    </button>
+
+                </article>
+
+
+                <!-- ENTERPRISE -->
+
+                <article>
+
+                    <h3>
+                        Enterprise
+                    </h3>
+
+                    <h4>
+                        $50 / month
+                    </h4>
+
+                    <p>
+                        ✓ All Pro Features
+                    </p>
+
+                    <p>
+                        ✓ Team Learning
+                    </p>
+
+                    <p>
+                        ✓ Advanced Courses
+                    </p>
+
+                    <p>
+                        ✓ 24/7 Support
+                    </p>
+
+                    <button type="button">
+                        Choose Enterprise
+                    </button>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CONTACT ================= -->
+
+        <section id="contact">
+
+            <h2>
+                Contact Us
+            </h2>
+
+            <form>
+
+                <div>
+
+                    <label for="contact-name">
+                        Name
+                    </label>
+
+                    <input
+                        type="text"
+                        id="contact-name"
+                        name="name"
+                        placeholder="Enter your name"
+                    >
+
+                </div>
+
+
+                <div>
+
+                    <label for="contact-email">
+                        Email
+                    </label>
+
+                    <input
+                        type="email"
+                        id="contact-email"
+                        name="email"
+                        placeholder="Enter your email"
+                    >
+
+                </div>
+
+
+                <div>
+
+                    <label for="message">
+                        Message
+                    </label>
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="5"
+                        placeholder="Write your message"
+                    ></textarea>
+
+                </div>
+
+
+                <button type="submit">
+                    Send Message
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <p>
+            © 2026 StudentHub. All Rights Reserved.
+        </p>
+
+    </footer>
+
 </body>
 </html>
+```
