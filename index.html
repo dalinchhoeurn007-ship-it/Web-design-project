@@ -14,75 +14,136 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
     <header>
+         <nav class="navbar navbar-expand-lg bg-white shadow-sm sticky-top">
 
-        <nav>
+        <div class="container">
 
-            <div>
-                <a href="#">StudentHub</a>
-            </div>
+           
+            <a class="navbar-brand fw-bold text-primary" href="#">
+                <i class="bi bi-mortarboard-fill"></i>
+                StudentHub
+            </a>
 
-            <div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
 
-                <a href="#home">Home</a>
+                <span class="navbar-toggler-icon"></span>
 
-                <a href="#about">About</a>
+            </button>
 
-                <div>
-                    <a href="#">Services</a>
+           
+            <div class="collapse navbar-collapse" id="mainNavbar">
 
-                    <div>
-                        <a href="#">Web Development</a>
-                        <a href="#">UI/UX Design</a>
-                        <a href="#">Programming</a>
-                    </div>
-                </div>
+                
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
-                <a href="#contact">Contact</a>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">
+                            Home
+                        </a>
+                    </li>
 
-            </div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">
+                            About
+                        </a>
+                    </li>
+
+                    
+                    <li class="nav-item dropdown">
+
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+
+                            Services
+
+                        </a>
+
+                        <ul class="dropdown-menu">
+
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    Web Development
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    UI/UX Design
+                                </a>
+                            </li>
+
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    Programming
+                                </a>
+                            </li>
+
+                        </ul>
+
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">
+                            Contact
+                        </a>
+                    </li>
+
+                </ul>
 
 
-            <div>
+                
+                <form class="d-flex me-2" role="search">
 
-                <form>
-                    <input type="search" placeholder="Search">
-                    <button type="submit">Search</button>
+                    <input class="form-control me-2" type="search" placeholder="Search">
+
+                    <button class="btn btn-outline-primary" type="submit">
+
+                        <i class="bi bi-search"></i>
+
+                    </button>
+
                 </form>
 
-                <button type="button">
+
+                
+                <button class="btn btn-primary">
                     Sign Up
                 </button>
 
             </div>
 
-        </nav>
+        </div>
 
-    </header>
+    </nav>
 
     <main>
 
-        <section id="home">
+        <section id="home" class="min-vh-100 d-flex align-items-center text-white" style="
+        background:
+        linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+        url('images/background.jpg');
+        background-size: cover;
+        background-position: center;
+    ">
 
-            <div>
+            <div class="container">
+                <div class="col-12 col-md-8 col-lg-6">
 
-                <h1>
-                    Learn. Create. Grow.
-                </h1>
+                    <h1 class="display-3 fw-bold">
+                        Learn. Create. Grow.
+                    </h1>
 
-                <p>
-                    A learning platform designed for students.
-                </p>
+                    <p class="lead">
+                        A learning platform designed for students.
+                    </p>
 
-                <button type="button">
-                    Get Started
-                </button>
+                    <button class="btn btn-primary btn-lg">
+                        Get Started
+                    </button>
 
+                </div>
             </div>
-
         </section>
 
-
-        <!-- ================= FEATURES ================= -->
 
         <section id="about" class="p-3 mb-2 bg-secondary-subtle text-secondary-emphasis    ">
 
